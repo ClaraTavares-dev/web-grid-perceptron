@@ -1,0 +1,34 @@
+.grid{
+display: grid;
+grid-template-columns:auto 1fr 1fr;
+justify-content:5px;
+gap: 20px;
+}
+
+.text {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+button { 
+  background-color: rgb(135, 76, 190);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding:10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  text-align: center;
+}
+.preco {
+  background: rgb(192, 187, 187);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 6px 9px;
+  border-radius: 3px;
+  border: 0px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+}
